@@ -1,8 +1,6 @@
 public class LuckinCoffee {
     public String storeAddress;
 
-    private String menu;
-
     public String storeHours;
     public long storePhoneNumber;
     public String storeEmail;
@@ -10,7 +8,6 @@ public class LuckinCoffee {
 
     private String orderID;
     private String orderDetails;
-    private String orderStatus;
     private double orderTotal;
 
     public void takeOrder(String id, String details, double total){
